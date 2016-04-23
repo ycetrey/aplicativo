@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/css/fonts/roboto_regular/Roboto-Regular-webfont.eot');
+    src: url('/css/fonts/roboto_regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/css/fonts/roboto_regular/Roboto-Regular-webfont.woff') format('woff'),
+    url('/css/fonts/roboto_regular/Roboto-Regular-webfont.ttf') format('truetype'),
+    url('/css/fonts/roboto_regular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'robotoregular' !important;}
+html,body{
+    font-family: 'robotoregular';
+}
+/* Empty. Add your own CSS if you like */
+a, a:visited,a:hover {
+    text-decoration: none;
+}
+
+.button.button-energized {
+    border-color: transparent;
+    background-color: #F57F20;
+    color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+h4.dica-titulo{
+    padding-top:10px;
+    white-space:normal;
+}
+.item{
+    border-color:transparent !important
+}
+
+ion-item.item, ion-card > ion-item > a.item-content{
+    padding:8px !important;
+}
+.item-thumbnail-left, .item-thumbnail-left .item-content{
+    padding-left:140px;
+}
+
+
+.item-thumbnail-left .item-content .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left > img:first-child{
+    max-width:120px;
+    max-height:100px;
+}
+
+
+/* ANIMATED */
+.chat-item.ng-enter {
+    -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+}
+.chat-item.ng-enter-stagger {
+    -webkit-animation-delay:200ms;
+    animation-delay:200ms;
+
+    /* override to make sure it's not inherited from other styles */
+    -webkit-animation-duration:0;
+    animation-duration:0;
+}
+.tab-nav.tabs{
+    padding-top:15px;
+    height:70px !important;
+}
+
+/* Fontes Focus Concursos */
+@font-face {
+    font-family: 'Focus_Icons';
+    src:    url('../lib/ionic/fonts/Focus_icons/Focus_Icons.eot?q1k5x2');
+    src:    url('../lib/ionic/fonts/Focus_icons/Focus_Icons.eot?q1k5x2#iefix') format('embedded-opentype'),
+    url('../lib/ionic/fonts/Focus_icons/Focus_Icons.ttf?q1k5x2') format('truetype'),
+    url('../lib/ionic/fonts/Focus_icons/Focus_Icons.woff?q1k5x2') format('woff'),
+    url('../lib/ionic/fonts/Focus_icons/Focus_Icons.svg?q1k5x2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Focus_Icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-Web:before {
+    content: "\46";
+}
+.icon-altura:before {
+    content: "\e900";
+}
+.icon-apostila_pdf:before {
+    content: "\e901";
+}
+.icon-area_do_aluno:before {
+    content: "\e902";
+}
+.icon-audio:before {
+    content: "\e903";
+}
+.icon-busca:before {
+    content: "\e904";
+}
+.icon-card:before {
+    content: "\e905";
+}
+.icon-carrinho:before {
+    content: "\e906";
+}
+.icon-central_de_atendimento:before {
+    content: "\e907";
+}
+.icon-chat:before {
+    content: "\e908";
+}
+.icon-check:before {
+    content: "\e909";
+}
+.icon-clique_aqui:before {
+    content: "\e90a";
+}
+.icon-doc_certificado:before {
+    content: "\e90b";
+}
+.icon-documento:before {
+    content: "\e90c";
+}
+.icon-email:before {
+    content: "\e90d";
+}
+.icon-flecha_baixo:before {
+    content: "\e90e";
+}
+.icon-flecha_cima:before {
+    content: "\e90f";
+}
+.icon-flecha_direita:before {
+    content: "\e910";
+}
+.icon-flecha_esquerda:before {
+    content: "\e911";
+}
+.icon-focus_ao_vivo:before {
+    content: "\e912";
+}
+.icon-focus_apostilas:before {
+    content: "\e913";
+}
+.icon-focus_enem:before {
+    content: "\e914";
+}
+.icon-focus_online:before {
+    content: "\e915";
+}
+.icon-focus_presencial:before {
+    content: "\e916";
+}
+.icon-focus_produtos:before {
+    content: "\e917";
+}
+.icon-fone:before {
+    content: "\e918";
+}
+.icon-habilitacao:before {
+    content: "\e919";
+}
+.icon-home:before {
+    content: "\e91a";
+}
+.icon-horario:before {
+    content: "\e91b";
+}
+.icon-lixo:before {
+    content: "\e91c";
+}
+.icon-logo_focus:before {
+    content: "\e91d";
+}
+.icon-menu:before {
+    content: "\e91e";
+}
+.icon-play:before {
+    content: "\e91f";
+}

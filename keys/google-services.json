@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "287262467974",
+    "project_id": "focus-concursos"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287262467974:android:07abb682236c302c",
+        "android_client_info": {
+          "package_name": "com.focusconcursos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287262467974-4dgn9h3cqp6jjkk6b78kpqk87nb4qkmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.focusconcursos",
+            "certificate_hash": "368A5B0E634F273896D3A79BA33457C014D2A14C"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMtUvZzkrdToaV1rkS3paf0RIsopTmO2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

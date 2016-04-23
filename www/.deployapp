@@ -1,0 +1,13 @@
+pass 25232013
+
+ionic build --release android
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ./keys/focusconcursos.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk focus
+zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk FocusConcursos.apk
+
+
+/* GCM */
+Server API Key help
+AIzaSyDBkCP2FfO0SY86-U4ADW1i5pRsjLr8FbY
+Sender ID help
+287262467974
+

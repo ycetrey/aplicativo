@@ -1,0 +1,17 @@
+<ion-view view-title="Meus cursos">
+    <ion-content lazy-scroll>
+        <ion-list>
+            <ion-item class="chat-item">
+                <div class="list">
+                    <a class="item item-thumbnail-left" ng-if="curso.anexo" ng-href="{{curso.tipo_curso == 'aovivo' ? '#/tab/curso-aovivo/' : '#/tab/curso/'}}{{curso.id}}" ng-repeat="curso in cursos">
+                        <img image-lazy-src="http://www.focusconcursos.com.br/focus-online/lib/php/image.php?image=skin/upload/{{curso.anexo}}&width=160&height=120&cropratio=1:1" lazy-scroll-resize="true" width="120" height="120">
+                        <h3 class="dica-titulo" style="font-weight: bold; margin-top:30px">{{curso.tipo_curso == 'aovivo' ? 'Ao vivo' : 'Online'}}</h3>
+                        <p style="overflow: initial;white-space: initial; font-size:11px">
+                            {{curso.curso_nome}}
+                        </p>
+                    </a>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

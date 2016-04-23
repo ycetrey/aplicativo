@@ -1,0 +1,65 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.bunkerpalace.cordova.YoutubeVideoPlayer": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "com.hutchind.cordova.plugins.streamingmedia": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "com.phonegap.plugins.videoplayer": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "287262467974",
+            "PACKAGE_NAME": "com.focusconcursos"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.focusconcursos"
+        }
+    }
+}

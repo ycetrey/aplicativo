@@ -1,0 +1,29 @@
+<ion-view  hide-nav-bar="true">
+    <ion-content>
+        <div class="padding text-center">
+            <i class="icon icon-logo_focus" style="font-size:110px; color:#197CBD; padding-top:50px; position:relative; display:block"></i>
+        </div>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input name="userName" type="text" placeholder="Usuário *" ng-model="user.username">
+            </label>
+            <br>
+            <label class="item item-input">
+                <input name="userPassword" type="password" placeholder="Senha *" ng-model="user.password">
+            </label>
+        </div>
+        <div class="padding">
+            <button class="button button-block button-positive" ng-click="signIn(user)">
+                Entrar <i class="icon icon-check" style="position:absolute; right:10px; top:50%; margin-top:-20px"></i>
+            </button>
+        </div>
+        <div class="padding">
+            <p class="text-center">
+                Não tem uma conta?
+            </p>
+            <button class="button button-full button-energized" ng-click="openBrowser()">
+                CADASTRE-SE <i class="icon icon-check" style="position:absolute; right:10px; top:50%; margin-top:-20px"></i>
+            </button>
+        </div>
+    </ion-content>
+</ion-view>

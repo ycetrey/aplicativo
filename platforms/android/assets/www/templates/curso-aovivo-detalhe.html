@@ -1,0 +1,20 @@
+<ion-view view-title="{{cursos.title}}" cache-view="false">
+    <ion-content>
+        <ion-list>
+            <div class="list card">
+                <div class="item item-image">
+                    <img src="http://online.focusconcursos.com.br/lib/php/image.php?image=skin/upload/{{cursos.imagem}}">
+                </div>
+                <a class="item item-icon-left assertive" ng-click="viewAoVivo('{{cursos.live_stream}}')">
+                    <i class="icon ion-radio-waves"></i>
+                    AO VIVO
+                </a>
+            </div>
+            <ion-item class="item item-avatar item-text-wrap" ng-repeat="materia in cursos.disciplina" type="item-text-wrap" href="#/tab/materia/{{materia.id}}">
+                <img ng-src="http://www.focusconcursos.com.br/focus-online/lib/php/image.php?image=skin/upload/{{materia.thumbnail}}&height=40&width=50&cropratio=1:1"/>
+                <h2>{{materia.professor}}</h2>
+                <p>{{materia.disciplina}}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

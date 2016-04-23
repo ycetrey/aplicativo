@@ -1,0 +1,14 @@
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+    <ion-tab title="Início" icon-off="icon-home" icon-on="icon-home" href="#/tab/dash">
+        <ion-nav-view name="tab-dash"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Aluno" icon-off="icon-area_do_aluno" icon-on="icon-area_do_aluno" href="#/tab/cursos" ng-click="onTabSelected()" ng-controller="CursosCtrl">
+        <ion-nav-view name="tab-cursos"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Evento" icon-off="icon-focus_ao_vivo" icon-on="icon-focus_ao_vivo" href="#/tab/evento">
+        <ion-nav-view name="tab-evento"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="SAC" icon-off="icon-central_de_atendimento" icon-on="icon-central_de_atendimento" href="#/tab/sac">
+        <ion-nav-view name="tab-sac"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

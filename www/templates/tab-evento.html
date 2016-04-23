@@ -1,0 +1,39 @@
+<ion-view view-title="Eventos">
+    <ion-content>
+
+        <ion-card ng-repeat="evento in eventos">
+
+            <ion-item class="item item-text-wrap">
+                <h2 style="background:#4470b2; color:#fff; padding:10px 20px; margin:0">
+                    {{evento.evento_nome}}<br>
+                    <span style="font-size:11px">{{evento.professores}}</span>
+                </h2>
+                <div class="row">
+                    <div class="col-10">
+                        <i class="icon-horario assertive" style="font-size:25px; display:block; padding-top:6px"></i>
+                    </div>
+                    <div class="col-90">
+                        {{evento.str_inicio}}<br>
+                        <span style="font-size:11px;">Horário de Brasília</span>
+                    </div>
+                </div>
+                <p>
+                    {{evento.pre_apresentacao}}
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <button class="button button-full button-energized" ng-click="viewEvento('{{evento.url_evento}}', '{{evento.str_inicio}}')">
+                            Video <i class="icon-play" style="position:absolute; right:10px; top:50%; margin-top:-8px"></i>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button class="button button-full button-assertive" ng-click="viewEventoAudio('{{evento.url_evento}}', '{{evento.str_inicio}}')">
+                            Áudio <i class="icon-audio" style="position:absolute; right:10px; top:50%; margin-top:-8px"></i>
+                        </button>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-card>
+
+    </ion-content>
+</ion-view>

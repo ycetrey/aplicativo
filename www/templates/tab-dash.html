@@ -1,0 +1,18 @@
+<ion-view view-title="Início">
+    <ion-content>
+        <ion-refresher ng-init="loadData()" pulling-text="" on-refresh="loadData()"></ion-refresher>
+        <ion-list>
+            <ion-item class="chat-item" ng-repeat="item in itens">
+                <h2 class="title">{{item.title}}</h2>
+                <div class="list">
+                    <a class="item item-thumbnail-left" ng-click="abrirVideo('{{dica.videoId}}')" ng-repeat="dica in item.dicas">
+                        <img ng-src="{{dica.thumbnail}}" width="120" height="90">
+                        <h4 class="dica-titulo">{{dica.titulo}}</h4>
+                        <p class="dica-texto wrap" style="word-wrap: break-word; word-break: break-all; font-size:11px">{{dica.texto}}</p>
+                    </a>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
+

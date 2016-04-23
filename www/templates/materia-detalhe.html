@@ -1,0 +1,27 @@
+<ion-view view-title="{{videoaulas.disciplina}}" cache-view="false">
+        <ion-content>
+                <ion-card>
+                        <ion-item style="text-align:center; background:url(./img/professor-background.png) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover; -o-background-size: cover;  background-size: cover;">                                <h2 style="color:#fff">{{videoaulas.disciplina}}</h2>
+                                <p style="color:#b3853a; font-weight:bold">{{videoaulas.professor}}</p>
+                                <img ng-src="http://www.focusconcursos.com.br/focus-online/lib/php/image.php?image=skin/upload/{{videoaulas.thumbnail}}" width="60%" style="margin:0 auto">
+                        </ion-item>
+                </ion-card>
+                <div class="list">
+                        <div class="item" ng-repeat="videoaula in videoaulas.videoaula">
+                                {{videoaula.videoaula_nome}}<br><a href="#" class="subdued" style="font-size:11px">{{videoaula.duracao}}</a>
+                                <div class="row" style="padding:0">
+                                        <div class="col">
+                                                <button class="button button-full button-positive" style="margin-top:10px" ng-click="viewVideoAula({{videoaula.videoaula}}, {{videoaula.biblioteca}}, '{{videoaula.duracao}}')">
+                                                        <i class="icon-play"></i> Videoaula
+                                                </button>
+                                        </div>
+                                        <div class="col">
+                                                <button class="button button-full button-assertive" style="margin-top:10px" ng-click="viewVideoPdf({{videoaula.videoaula}}, '{{videoaula.duracao}}')">
+                                                        <i class="icon-apostila_pdf"></i> PDF
+                                                </button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </ion-content>
+</ion-view>

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?cdt88b');
+    src:    url('fonts/icomoon.eot?cdt88b#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?cdt88b') format('truetype'),
+        url('fonts/icomoon.woff?cdt88b') format('woff'),
+        url('fonts/icomoon.svg?cdt88b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Web:before {
+    content: "\46";
+}
+.icon-altura:before {
+    content: "\e900";
+}
+.icon-apostila_pdf:before {
+    content: "\e901";
+}
+.icon-area_do_aluno:before {
+    content: "\e902";
+}
+.icon-audio:before {
+    content: "\e903";
+}
+.icon-busca:before {
+    content: "\e904";
+}
+.icon-card:before {
+    content: "\e905";
+}
+.icon-carrinho:before {
+    content: "\e906";
+}
+.icon-central_de_atendimento:before {
+    content: "\e907";
+}
+.icon-chat:before {
+    content: "\e908";
+}
+.icon-check:before {
+    content: "\e909";
+}
+.icon-clique_aqui:before {
+    content: "\e90a";
+}
+.icon-doc_certificado:before {
+    content: "\e90b";
+}
+.icon-documento:before {
+    content: "\e90c";
+}
+.icon-email:before {
+    content: "\e90d";
+}
+.icon-flecha_baixo:before {
+    content: "\e90e";
+}
+.icon-flecha_cima:before {
+    content: "\e90f";
+}
+.icon-flecha_direita:before {
+    content: "\e910";
+}
+.icon-flecha_esquerda:before {
+    content: "\e911";
+}
+.icon-focus_ao_vivo:before {
+    content: "\e912";
+}
+.icon-focus_apostilas:before {
+    content: "\e913";
+}
+.icon-focus_enem:before {
+    content: "\e914";
+}
+.icon-focus_online:before {
+    content: "\e915";
+}
+.icon-focus_presencial:before {
+    content: "\e916";
+}
+.icon-focus_produtos:before {
+    content: "\e917";
+}
+.icon-fone:before {
+    content: "\e918";
+}
+.icon-habilitacao:before {
+    content: "\e919";
+}
+.icon-home:before {
+    content: "\e91a";
+}
+.icon-horario:before {
+    content: "\e91b";
+}
+.icon-lixo:before {
+    content: "\e91c";
+}
+.icon-logo_focus:before {
+    content: "\e91d";
+}
+.icon-menu:before {
+    content: "\e91e";
+}
+.icon-play:before {
+    content: "\e91f";
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "FocusConcursos",
+  "app_id": "ca56143b",
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "12.41.296.5"
+    }
+  ]
+}
